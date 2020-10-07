@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+:root{
+    --btn-color: #e74536;
+    --font-color:rgb(45, 49, 56);
+    /* --price-color:rgb(0, 204, 153); */
+    --price-color:rgba(35, 216, 171, 0.87);
+    --border-raidus: .4rem
+}
+
+.header{
+    background: url(/img/header.png), radial-gradient(rgb(219, 216, 216), rgb(214, 211, 211));
+    background-blend-mode: multiply;
+    /* background attachment fixed gives a scrolling effect */
+   background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    margin-bottom: 2rem;
+}
+
+.header a{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.auth{
+    background-color: var(--btn-color);
+    padding: .3rem 2.5rem;
+}
+
+.btn {
+    color: #fff;
+    opacity: 1;
+}
+.btn:hover{
+    color: #fff;
+    opacity: .9;
+}

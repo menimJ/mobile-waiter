@@ -1,0 +1,75 @@
+/* .item-display > div:nth-child(2){
+    width: 55%;
+} */
+
+/* .item-component{
+    border: 1px solid grey;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.item-component h5{
+    font-weight: 700;
+ 
+}
+.item-component p{
+    text-align: justify;
+}
+
+.item-component__price{
+    color: var(--price-color);
+}
+
+.item-component__img {
+    background-color: hotpink;
+    width: 27%;
+    min-height: 9rem;
+}
+.item-component__img img{
+    /* width: 9rem; */
+    /* width: 100%;
+    height: 100%; */
+    /* min-height: 9rem; */
+    /* object-fit: cover; */
+    
+}
+
+/* .item-component__description{
+    padding: 1rem 1rem;
+    width: 75%;
+}
+@media (max-width: 67rem) {
+   
+    .item-display > div:nth-child(2){
+        width: 100%;  
+    }
+    
+
+   } */ */
+
+/* 
+   <div class="card mb-3" style="max-width: 540px;">
+   <div class="row no-gutters">
+     <div class="col-sm-4">
+       <img src="/img/randomFood.jpg" class="card-img" alt="...">
+     </div>
+     <div class="col-sm-8">
+       <div class="card-body">
+         <h5 class="card-title">Rice</h5>
+         <p class="card-text">
+           This is a wider card with 
+           supporting text below as a natural lead-in 
+           to additional content. This content is a little bit 
+           longer.
+         </p>
+         <p class="card-text">
+           <small class="item-component__price">
+             ₦3,000.00
+           </small>
+         </p>
+       </div>
+     </div>
+   </div>
+ </div> */
