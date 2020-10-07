@@ -1,0 +1,64 @@
+
+.top-buttom-space{
+    margin: 2rem 0;
+}
+.item-detail{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.item-detail-content {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 1rem;
+}
+
+.item-detail-content h1{
+    font-weight: 700;
+}
+
+.item-detail img{
+    width: 100%;
+    object-fit:contain;
+}
+.item-detail-buttons{
+    /* where both buttons sit */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.item-detail-button-layout button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    /* flex-wrap: wrap; */
+    /* gap: 2rem; */
+    padding: 1rem 2rem;
+    border-radius: 2.2rem;
+    letter-spacing: 0.14px;
+}
+
+.item-detail-button-layout button > p{
+    /* fall back for gap -- browser support */
+    margin-bottom: 0;
+    margin: 0 .6rem; 
+}
+
+.add-on-btn-display button{
+    background-color:var(--price-color);
+    color:#fff;
+}
+
+.quantity-btn-display button{
+    color: rgb(45, 49, 56);
+    background-color: rgb(255, 255, 255);
+    letter-spacing: -0.28px;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid rgba(217, 219, 224, 0.5);;
+}
+
