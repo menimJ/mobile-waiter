@@ -22,7 +22,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: rgba(185, 181, 181, 0.384);
+   /* background-color: rgba(185, 181, 181, 0.384); */
    
 }
 .users-cart__description div p,

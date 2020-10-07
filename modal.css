@@ -27,7 +27,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 1rem;
+    /* gap: 1rem; */
+}
+
+.item-detail-buttons div {
+    margin: .6rem;
 }
 
 .item-detail-button-layout button{
@@ -35,8 +39,6 @@
     justify-content: space-between;
     align-items: center;
     border: none;
-    /* flex-wrap: wrap; */
-    /* gap: 2rem; */
     padding: 1rem 2rem;
     border-radius: 2.2rem;
     letter-spacing: 0.14px;

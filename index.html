@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="itemComponent.css">
     <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="checkOutComponent.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -23,7 +24,6 @@
   <header class="header"></header>
   <section>
 
- 
  
    <!-- users-cart -->
     <div class="item-display">
@@ -142,7 +142,117 @@
       </button>
     </div>
 
-   
+    <!-- item pop up -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+
+        <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </div>
+
+        <div class="item-detail">
+          <img src="/img/eggs.jpg" alt="" srcset="">
+          <div>
+
+          <div class="container top-buttom-space">
+              <div class="item-detail-content ">
+                <h3>Rice</h3>
+                <SMall>Addons at ₦50.00</SMall>
+              </div>
+
+            <div class="item-detail-buttons">
+              <div class="item-detail-button-layout quantity-btn-display">
+                <button type="submit" >
+                <p><ion-icon name="add-outline"></ion-icon></p>
+                <p>1</p> 
+                <p><ion-icon name="remove-outline"></ion-icon></p>
+                </button>
+              </div>
+
+              <div class="item-detail-button-layout add-on-btn-display">
+                <button type="submit" >
+                <p></p>
+                <p>ADD TO CART</p> 
+                <p>₦100.00</p>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          </div>
+        </div>
+      </div>
+       
+      </div>
+    
+       
+
+        </div>
+
+     <!-- item end of pop up -->
+
+      <!-- cart pop up -->
+      <div class="modal fade check-out-pop-up" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog check-out-pop-up modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header cart-modal">
+              <h5 class="modal-title " id="exampleModalLabel">RESTURANT NAME</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+
+              <div class="users-cart__description container price">
+                <div>
+                  <p>3</p>
+                  <p><strong>Rice</strong></p>
+                </div>
+    
+                <div>
+                  <p> <strong>100</strong></p>
+                  <button type="button" class="close hide" data-dismiss="modal" aria-label="Close">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="users-cart__description container price">
+                <div>
+                  <p>3</p>
+                  <p><strong>Rice</strong></p>
+                </div>
+    
+                <div>
+                  <p> <strong>100</strong></p>
+                  <button type="button" class="close hide" data-dismiss="modal" aria-label="Close">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              
+             
+            </div>
+
+          <div class="modal-footer cart-modal-checkout">
+              <div class="item-detail-button-layout add-on-btn-display">
+                <button type="submit" >
+                <p>CHECKOUT</p> 
+                <P>₦300.00</P>
+                </button>
+              </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- end of cart pop up -->
       </div>
     </div>
    
