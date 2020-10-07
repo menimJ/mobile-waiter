@@ -1,0 +1,14 @@
+.cart-modal h5{
+    font-weight: 700;
+}
+.cart-modal-checkout{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 65rem) {
+    .check-out-pop-up{
+        display: none; 
+    }
+   }
+
